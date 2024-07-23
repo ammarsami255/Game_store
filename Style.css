@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.header {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.header img {
+    height: 50px;
+}
+
+.home a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.btn {
+    color: white;
+    background-color: #ee6268;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ef285c;
+}
+
+.home a:hover {
+    background-color: #5f8fa0;
+    border-radius: 5px;
+}
+
+.lead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cadetblue;
+    border-radius: 0 0 50px 50px;
+    padding: 40px 60px;
+    color: white;
+}
+
+.content {
+    max-width: 600px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.search {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.search:focus {
+    outline: none;
+}
+
+.banner img {
+    border-radius: 20px;
+    max-width: 300px;
+}
+
+.trending-container {
+    padding: 40px 50px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.trending-container span {
+    color: #ee6268;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.trending-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.trending-head h1 {
+    margin: 0;
+}
+
+.trending-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    width: 200px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+}
+
+.card-name h4, .card-name h3 {
+    margin: 0;
+}
+.game{
+    max-height: 150px;
+}
+.card-info img {
+    width: 30px;
+}
